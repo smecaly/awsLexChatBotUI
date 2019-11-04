@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -75,10 +75,11 @@ span.psw {
 
 /* Modal Content/Box */
 .modal-content {
+  //background-image:"https://www.finextra.com/finextra-images/top_pics/xl/risks-and-benefits-of-open-banking.jpg" 
   background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  margin: 10% 10% 15% 75%; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 25%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button (x) */
@@ -126,10 +127,11 @@ span.psw {
 </style>
 </head>
 <body background ="https://securecdn.pymnts.com/wp-content/uploads/2019/08/bottomline-open-banking-api.jpg">
+ <!-- <img src="https://www.finextra.com/finextra-images/top_pics/xl/risks-and-benefits-of-open-banking.jpg"> -->
   
   <form class="modal-content animate" action="/login" method="post">
 
-    <div class="container">
+    <div class="container" style= "background-color: white">	
       <label for="uname"><b>Username</b></label>
       <input type="text" placeholder="Enter Username" name="uname" required>
 
@@ -137,6 +139,11 @@ span.psw {
       <input type="password" placeholder="Enter Password" name="psw" required>
         
       <button type="submit">Login</button>
+	  
+	  <a href="https://www.w3schools.com/html/">New User? Register here</a><br/>
+	  </br>
+
+	  <a href="https://www.w3schools.com/html/">Forgot Password?</a>
     </div>
   </form>
 
