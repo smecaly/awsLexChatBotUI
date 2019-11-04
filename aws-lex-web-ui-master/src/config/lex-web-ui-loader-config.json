@@ -9,7 +9,7 @@
 	"lex": {
 		"botName": "OpenBank",
 		"botAlias": "$LATEST",
-		"initialText": "You can ask for your account related questions",
+		"initialText": "Say Hi..",
 		"initialSpeechInstruction": "Say 'Hello' to get started.",
 		"reInitSessionAttributesOnRestart": false
 	},
